@@ -1,3 +1,4 @@
+
 /* Font */
 .inter-fitness{
     font-family: "Inter", sans-serif;
@@ -52,6 +53,7 @@ nav{
 
 .header-section{
     display: flex;
+    gap: 9.6rem;
 }
 .header-section-div1{
 
@@ -92,6 +94,15 @@ nav{
 }
 
 
+
+
+/* Main section */
+
+.change-habit{
+
+    text-align: center;
+    
+}
 
 
 
