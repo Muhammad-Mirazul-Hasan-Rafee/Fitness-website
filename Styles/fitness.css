@@ -1,5 +1,22 @@
-/* nav bar related styles */
+/* Font */
+.inter-fitness{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: italic;
+    color: #E6533C;
+  }
 
+  .shape{
+    font-family: 'Miama', sans-serif;                                             
+                                        
+  }
+  
+
+/* nav bar related styles */
+header{
+    background-color: rgb(27, 25, 25);
+}
 nav{
 
     display: flex;
@@ -25,24 +42,56 @@ nav{
     color: white;
     background-color: #E6533C;
     width: 80px;
-    border-radius: 13px;
+    border-radius: 14px;
+    text-align:  center;
    
 }
 
 
 /* header section styles */
 
+.header-section{
+    display: flex;
+}
+.header-section-div1{
+
+    height: 440px;
+    width: 520px;
+}
+
 
 
 
 /* Shared color style */
-
-
-
-.inter-fitness{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: italic;
-  color: #E6533C;
+.color-white{
+    color: white;
 }
+
+.color-less-white{
+    color: #FFFFFF;
+}
+
+.join-club{
+    background-color: #E6533C;
+}
+.download-app{
+
+    background-color: black;
+}
+
+
+/* Shared button styles */
+
+.join-club , .download-app{
+
+    height: 55px;
+    width: 226px;
+    border-radius: 53px;
+    color: white;
+
+}
+
+
+
+
+
