@@ -1,6 +1,9 @@
 
 *{
-    background-color: rgb(34, 33, 33);
+    background-color: black;
+}
+*{
+    color: #FFFFFF;
 }
 /* Font */
 .inter-fitness{
@@ -20,7 +23,7 @@
 
 /* nav bar related styles */
 header{
-    background-color: rgb(27, 25, 25);
+    background-color: black;
     height: 715px;
 }
 nav{
@@ -68,7 +71,7 @@ nav{
 
 .header-section-div2{
     position: relative;
-    background-color: rgb(rgb(37, 32, 32), rgb(19, 26, 19), rgb(12, 12, 22));
+    background-color: black;
 }
 .free-workout{
     position: absolute;
@@ -123,10 +126,51 @@ nav{
 .change-your-habit{
 
     text-align: center;
-    background-color: rgb(34, 33, 33);
+    background-color: black;
     color: whitesmoke ;
     
 }
 
+/* Chance Your Habit */
+.change-habit-sub-div{
+    color: whitesmoke;
+    width: 15%;
+    height: 23rem;
+    text-align: center;
+    
+}
 
+.change-habit-img{
+    border-radius: 6rem;
+}
 
+.aside{
+    text-align: center;
+}
+
+.caption-and-paragraph{
+    margin-top: 1rem;
+}
+
+.change-habit-img-div{
+   
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 2rem;
+    padding: 1rem;
+    
+}
+
+.run-extra-mile{
+
+    border: 1px solid white;
+    display: flex;
+    
+}
+
+/*  Run an Extra Mile Easily */
+
+.aside-for-article-with-button{
+
+    color: #FFFFFF;
+}
