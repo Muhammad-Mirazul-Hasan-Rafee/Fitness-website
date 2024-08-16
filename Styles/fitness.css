@@ -1,9 +1,9 @@
 
 *{
-    background-color: rgb(12, 11, 11);
+    background-color:rgb(0, 0, 0);
 }
 *{
-    color: #FFFFFF;
+    color: rgb(183, 183, 194);
 }
 /* Font */
 .inter-fitness{
@@ -32,6 +32,7 @@ nav{
     display: flex;
     justify-content: space-between;
     margin: 2rem;
+    margin-right: 225px;
 }
 
 .nav-ul{
@@ -63,6 +64,32 @@ nav{
     gap: 9.6rem;
     margin-top: auto;
 }
+
+.header-img{
+
+    height: 370px;
+    width: 400px;
+}
+
+.header-section-right{
+
+  position: relative;
+  background-image: url('../Resources/images/exercise5.jpg');
+}
+
+.video-tutorials{
+    position: absolute;
+    margin-left: 12rem;
+    margin-top: 20rem;
+    width: 193px;
+}
+.video-workout{
+    position: absolute;
+    margin-left: 23rem;
+    width: 193px;
+    height: 98px;
+}
+
 .header-section-div1{
 
     height:auto;
@@ -72,19 +99,20 @@ nav{
 
 
 .header-section-div2{
-    position: relative;
-    background-color: black;
+   width: auto;
+   height: auto;
 }
-.free-workout{
+/* .free-workout{
     position: absolute;
 }
 
 .video-tutorial{
     position: absolute;
-}
+} */
 .img-5{
     height: 585px;
     width: 430px;
+    
 }
 
 
@@ -320,12 +348,55 @@ table{
 
 
 footer{
-    border: 1px solid red;
+    
     height: auto;
     width: auto;
 }
 
 .footer-section{
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    margin-left: 12rem;
+    width: 90%;
+ 
+
 }
+
+.footer-div2>ul , .footer-div3>ul{
+
+    list-style: none;
+}
+   
+
+
+.big-footer{
+
+    text-align: center;
+    display: flex;
+    margin-right: 1rem;
+    margin-left: 2rem;
+    border: auto;
+}
+
+hr{
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+.last-paragraph{
+    text-align: center;
+}
+
+/* Responsive for small device */
+
+@media screen and (max-width: 576px){
+    .header-section{
+        flex-direction: column;
+        height: auto;
+    }
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    }
+
+
