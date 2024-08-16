@@ -1,6 +1,6 @@
 
 *{
-    background-color: black;
+    background-color: rgb(12, 11, 11);
 }
 *{
     color: #FFFFFF;
@@ -25,6 +25,7 @@
 header{
     background-color: black;
     height: 715px;
+    margin-top: auto;
 }
 nav{
 
@@ -60,6 +61,7 @@ nav{
 .header-section{
     display: flex;
     gap: 9.6rem;
+    margin-top: auto;
 }
 .header-section-div1{
 
@@ -161,16 +163,169 @@ nav{
     
 }
 
+
+
+/*  Run an Extra Mile */
 .run-extra-mile{
 
-    border: 1px solid white;
+    height: auto;
     display: flex;
-    
-}
-
-/*  Run an Extra Mile Easily */
+    margin: 1rem 4rem 1rem 4rem;
+    justify-content: space-around;
+        
+    }
 
 .aside-for-article-with-button{
 
     color: #FFFFFF;
+  
+    width: 31.25rem;
+    margin-left: 1rem;
+    padding: 1rem;
+
+
+}
+
+.join-now-button{
+
+    background-color: #b35f53;
+    width: 160px;
+    height: 54px;
+    border-radius: 42px;
+    margin-top: 4rem;
+}
+.aside-for-image{
+    width: 366px;
+    height: 312px;
+    align-content:  center;
+}
+
+/* BMI heading */
+
+
+.bmi-heading{
+    height: 120px;
+    width: 671px;
+   
+    text-align: center;
+    margin-left: 18rem;
+    
+}
+
+
+
+
+
+/* BMI Calculator and chart */
+
+.bmi-chart-calculator{
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 4rem;
+    margin-right:5rem;
+    background-color: lightslategray;
+}
+
+.for-chart{
+    margin-left: 4rem;
+}
+table{
+    margin-top: 4rem;
+}
+
+.for-chart , .for-BMI , .for-chart-heading , .for-BMI-heading , .for-BMI-p{
+
+    background-color: lightslategray;
+
+}
+
+
+
+th ,td{
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: lightslategray;
+
+}
+table{
+    border-collapse: collapse;
+}
+
+.calculator-title-short-description{
+
+    text-align: center;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin-top: auto;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    width: auto;
+    height: 7rem;
+    text-align: center;
+    background-color: lightslategray;
+    
+}
+
+.form2{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    height: 3rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 1rem;
+}
+
+.bmi-button{
+
+    width: 224px;
+    height: 54px;
+    padding: 2px;
+    background-color: #E6533C;
+    border-radius: 41px;
+    margin-right: 9.5rem;
+    
+}
+
+
+/* Meet our team */
+
+.meet-our-team{
+
+    text-align: center;
+}
+
+
+.row{
+   display: flex;
+   gap: 1rem;
+   margin-top: 1rem;
+}
+.trainer{
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+   
+
+}
+.meet-our-team-images{
+    margin-left: 12rem;
+}
+
+
+footer{
+    border: 1px solid red;
+    height: auto;
+    width: auto;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-evenly;
 }
